@@ -1,7 +1,7 @@
 '''
 Created on 10 nov 2024
 
-@author: silva
+@author: daniel silva escalera 
 '''
 from __future__ import annotations
 from typing import TypeVar
