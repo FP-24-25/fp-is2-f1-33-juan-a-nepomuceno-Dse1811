@@ -27,7 +27,7 @@ class Agregado_Lineal:
     def add(self, e: E) -> None:
         pass
 
-    def add_all(self, ls: List[E]) -> None:
+    def add_all(self, ls: list[E]) -> None:
         for elem in ls:
             self.add(elem)
 
@@ -35,7 +35,7 @@ class Agregado_Lineal:
         assert len(self._elements) > 0, 'El agregado está vacío'
         return self._elements.pop(0)
 
-    def remove_all(self) -> List[E]:
+    def remove_all(self) -> list[E]:
         removed_elements = []
         while not self.is_empty():
             removed_elements.append(self.remove())
