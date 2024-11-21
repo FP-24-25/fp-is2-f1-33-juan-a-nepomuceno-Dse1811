@@ -1,7 +1,7 @@
 '''
 Created on 21 nov 2024
 
-@author: silva
+@author: Daniel Silva Escalera
 '''
 #-------------------------EJERCICIO 1-----------------------------------------------
 from typing import List, TypeVar, Generic
