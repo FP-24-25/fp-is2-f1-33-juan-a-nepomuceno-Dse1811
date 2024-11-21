@@ -10,7 +10,7 @@ E = TypeVar('E')
 class Cola:
     def __init__(self) -> None:
         super().__init__()
-
+    @classmethod
     def of(cls) -> 'Cola[E]':
         return cls()
 
