@@ -37,7 +37,7 @@ class ColaConLimite:
 #------------------------EJERCICIO 2------------------------------------------------
 from typing import Callable, TypeVar, Generic, List
 
-E = TypeVar('E')  # Define un tipo genérico
+E = TypeVar('E') 
 
 class AgregadoLineal(Generic[E]):
     def __init__(self):
