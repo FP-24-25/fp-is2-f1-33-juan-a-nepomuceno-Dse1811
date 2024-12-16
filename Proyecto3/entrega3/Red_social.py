@@ -56,6 +56,6 @@ class Red_social(E_grafo[Usuario, Relacion]):
         return self.__usuarios_dni
 
 if __name__ == '__main__':
-    rrss: Red_social = Red_social.parse('resources/usuarios.txt', 'resources/relaciones.txt')
+    rrss: Red_social = Red_social.parse('../resources/usuarios.txt', '../resources/relaciones.txt')
     if rrss:
         print(rrss)
