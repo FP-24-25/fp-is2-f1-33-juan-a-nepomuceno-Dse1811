@@ -6,7 +6,7 @@ Created on 14 dic 2024
 from entrega3.Red_social import Red_social
 
 if __name__ == '__main__':
-    rrss: Red_social = Red_social.parse('resources/usuarios.txt', 'resources/relaciones.txt')
+    rrss: Red_social = Red_social.parse('../resources/usuarios.txt', '../resources/relaciones.txt')
     if rrss:
         sep = '\n'
         print("************** Nº Predecesores de cada vértice")
