@@ -7,7 +7,7 @@ from entrega3.Red_social import *
 from entrega3.Recorrido_en_profundidad import Recorrido_en_profundidad
 
 if __name__ == '__main__':
-    rrss: Red_social = Red_social.parse('resources/usuarios.txt', 'resources/relaciones.txt')
+    rrss: Red_social = Red_social.parse('../resources/usuarios.txt', '../resources/relaciones.txt')
     if rrss:
         r:Recorrido_en_profundidad[Usuario,Relacion] = Recorrido_en_profundidad.of(rrss)
         
